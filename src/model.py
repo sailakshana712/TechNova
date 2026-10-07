@@ -1,6 +1,5 @@
 CLASSES = ["glioma", "meningioma", "notumor", "pituitary"]
 
 def predict(pil_img) -> dict:
-    """Look at one MRI and give a chance (0 to 1) for each tumour type."""
-    return {"glioma": 0.25, "meningioma": 0.25, "notumor": 0.25, "pituitary": 0.25}
-
+    """STUB: fake answer. Real model comes later."""
+    return {"glioma": 0.05, "meningioma": 0.86, "notumor": 0.04, "pituitary": 0.05}

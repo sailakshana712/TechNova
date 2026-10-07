@@ -1,3 +1,3 @@
 def check_quality(pil_img) -> dict:
-    """Check if the MRI picture is clear enough."""
-    return {"score": 1.0, "blur": 0.0, "brightness": 0.0, "contrast": 0.0, "warnings": []}
+    """STUB: fake answer."""
+    return {"score": 0.9, "blur": 120.0, "brightness": 0.5, "contrast": 0.4, "warnings": []}
