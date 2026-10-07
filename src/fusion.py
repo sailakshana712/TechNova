@@ -1,3 +1,3 @@
-def combine(image_result: dict, notes_result: dict) -> dict:
-    """Mix the image answer and the notes answer together."""
-    return {"image": image_result, "notes": notes_result}
+def build_report(pil_img, note_text: str) -> dict:
+    """Mix the picture result and the notes result into one report."""
+    return {"quality": {}, "findings": [], "disclaimer": "Doctor-assist tool, not a diagnosis."}
