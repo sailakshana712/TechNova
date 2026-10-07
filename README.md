@@ -28,8 +28,7 @@ Test accuracy: PUT_YOUR_NUMBER
 Example input and output: see the outputs folder.
 
 ## What we built
-Done: classifier, heatmap with box, confidence levels, note quotes, evidence check, image quality check, Streamlit app.
-Not done: PUT_ANYTHING_YOU_SKIPPED
+Done: classifier, heatmap with box, confidence levels, note quotes, evidence check, image quality check, Streamlit app
 
 ## Limitations
 Small public dataset, not tested on real hospitals, not medically validated. The doctor always decides.
