@@ -1,0 +1,23 @@
+Data found at: /kaggle/input/datasets/masoudnickparvar/brain-tumor-mri-dataset
+Classes: ['glioma', 'meningioma', 'notumor', 'pituitary']
+epoch 0 accuracy 0.9476190476190476
+epoch 1 accuracy 0.8607142857142858
+epoch 2 accuracy 0.9785714285714285
+epoch 3 accuracy 0.9535714285714286
+epoch 4 accuracy 0.9666666666666667
+epoch 5 accuracy 0.955952380952381
+              precision    recall  f1-score   support
+
+      glioma       0.97      0.82      0.89       400
+  meningioma       0.90      0.96      0.93       400
+     notumor       0.90      1.00      0.95       400
+   pituitary       0.99      0.97      0.98       400
+
+    accuracy                           0.94      1600
+   macro avg       0.94      0.94      0.94      1600
+weighted avg       0.94      0.94      0.94      1600
+
+[[328  35  37   0]
+ [  4 383   9   4]
+ [  0   0 400   0]
+ [  5   7   0 388]]
